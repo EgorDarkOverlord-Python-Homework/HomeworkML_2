@@ -10,10 +10,10 @@ class BloodImageGenerator:
 
     def __init__(self,
                  image_size=256,
-                 background_color=(250, 180, 180),
+                 background_color=(100, 20, 20),
                  cell_count_range=(5, 20),
                  cell_size_range=(10, 30),
-                 cell_color_range=((100, 0, 0), (255, 100, 100)),
+                 cell_color_range=((200, 0, 0), (255, 150, 150)),
                  noise_percent = 1
                  ):
         self.image_size = image_size
